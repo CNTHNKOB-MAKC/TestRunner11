@@ -2,7 +2,7 @@
 ::========================================
 SET GITHUB_ACCOUNT=CNTHNKOB-MAKC
 SET WS_DIR=Workspace
-SET REPO_NAME=TestRunner
+SET REPO_NAME=TestRunner1
 SET APP_VERSION=1.1
 SET MAIN_CLASS=core.TestRunner1.TestRunnerSingleTitleValidation
 SET ARGS_01=
