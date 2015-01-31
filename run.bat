@@ -21,7 +21,9 @@ IF "%JAVA_HOME%" == "" GOTO EXIT_JAVA
 ECHO Java installed
 IF "%M2%" == "" GOTO EXIT_MVN
 ECHO Maven installed
-
+CALL git --version > nul 2>&1
+IF NOT %ERRORLEVEL% == 0 GOTO EXIT_GIT
+ECHO Git installed
  
 GOTO NEXT
  
